@@ -9,7 +9,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app ./app
-COPY scripts ./scripts
+
 
 # Render supplies PORT automatically (normally 10000).
 EXPOSE 10000
